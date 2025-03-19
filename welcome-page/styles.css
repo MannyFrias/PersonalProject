@@ -1,0 +1,26 @@
+/*  Colors: 
+Primary: 2D2D34
+
+
+*/
+@media (max-width: 400px) {
+  .cards {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 6px;
+}
