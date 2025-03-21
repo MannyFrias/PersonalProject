@@ -3,10 +3,14 @@ Primary: 2D2D34
 
 
 */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .cards {
     display: flex;
     justify-content: space-around;
+  }
+
+  .single-card-container {
+    flex-direction: column;
   }
 }
 .cards {
@@ -23,4 +27,9 @@ Primary: 2D2D34
 
 img {
   border-radius: 6px;
+}
+
+.single-card {
+  flex: 1;
+  margin: 20px 10px 10px 10px;
 }
