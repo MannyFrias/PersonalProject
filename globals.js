@@ -1,0 +1,25 @@
+const cards = document.getElementById("card");
+const carousel = document.getElementById("carousel-slide");
+const carouselItem = document.querySelector(".carousel-item img");
+const carouselTitle = document.querySelector("#carousel-caption h5");
+const CarouselDesc = document.querySelector(".carousel-caption p");
+const carouselItem2 = document.querySelector("#carousel-item2 img");
+const carouselTitle2 = document.querySelector("#carousel-caption2 h5");
+const carouselDesc2 = document.querySelector("#carousel-caption2 p");
+const carouselItem3 = document.querySelector("#carousel-item3 img");
+const carouselTitle3 = document.querySelector("#carousel-caption3 h5");
+const carouselDesc3 = document.querySelector("#carousel-caption3 p");
+const cardImg1 = document.querySelector("#card1 img");
+const cardTitle1 = document.querySelector(".card-title");
+const cardText1 = document.querySelector(".card-text");
+const cardBtn1 = document.querySelector("#button1");
+const cardImg2 = document.querySelector("#card2 img");
+const cardTitle2 = document.querySelector("#card2 h5");
+const cardText2 = document.querySelector("#card2 p");
+const cardBtn2 = document.querySelector("#button2");
+const cardImg3 = document.querySelector("#card3 img");
+const cardTitle3 = document.querySelector("#card3 h5");
+const cardText3 = document.querySelector("#card3 p");
+const cardBtn3 = document.querySelector("#button3");
+const url =
+  "https://newsapi.org/v2/everything?q=Apple&from=2025-03-19&sortBy=popularity&apiKey=be862f3e68634812ad6c9042d1bc64ca";
